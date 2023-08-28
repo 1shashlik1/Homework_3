@@ -64,12 +64,19 @@
             System.out.println("нет места.");
         }
         //Задание№7
-        int one;
-        int two;
-        int three;
+        int one = 1;
+        int two = 4;
+        int three = 3;
+        if ( one < two && one < three ) {
+            System.out.println("число " + one + " меньше чем " + two + " и " + three );
+            if ( two < three && two > one ) {
+                System.out.println("Число " + two + " Больше чем " + one + " и меньше чем " + three );
+            }
+            else {
+                System.out.println("Число " + two + " больше чем остальные ");
+            }
+        }
 
-
-        // Чисто One, two, three не работают, либо что-то я не знаю.
         //Пока оставлю так, я прям совсем не понимаю как нужно сделать Задачу№7. остальное отдаю на проверку.
     }
 
